@@ -1,0 +1,73 @@
+#masthead {
+    font-family: Monaco;
+    background-color: #e4ddf8;
+    padding: 20px;
+    border-bottom: rgb(212, 192, 247) 1px solid;
+    width: 100%;
+}
+
+#masthead img {
+    margin-right: 1em;
+}
+
+#masthead h1 {
+    font-family: Monaco;
+    display: inline-block;
+    color: white;
+}
+
+.tagline {
+    font-family: Monaco;
+    display: inline-block;
+    margin-top: 1em;
+    font-style: italic;
+}
+
+footer {
+    font-family: Monaco;
+    margin-top: 4em;
+    padding: 2em 20px 8em;
+    width: 100%;
+    background-color: #b9dad2;
+    color: #eee;
+    font-family: serif;
+
+}
+
+#content{
+    font-family: Monaco;
+    padding: 1.5em 3em;
+}
+
+.uvm-green {
+    background-color: #b9dad2;
+    color: white;
+}
+
+#lesson-choices {
+    font-family: Monaco;
+    margin-bottom: 15rem;
+}
+
+.btn {
+    background-color: #e4ddf8;
+    font-family: Monaco;
+}
+
+.generate {
+    background-color: rgb(221, 248, 237);
+}
+
+button{
+    font-family: Monaco;
+    animation: rainbow-animation 1000ms linear infinite;
+  }
+  
+  @keyframes rainbow-animation {
+    to{
+      filter: hue-rotate(0deg);
+    }
+   from{
+      filter: hue-rotate(360deg);
+    }
+  }

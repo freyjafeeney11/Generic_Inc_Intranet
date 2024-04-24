@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="card">
+    <div class="card-body">
+        <div class="row mt-3">
+            <div class="col md-6">
+                <form action="{{ url_for('.register') }}" method="POST"
+                      id="register_form">
+                    <div class="form-group">
+                        <label for="name">Username:</label>
+                        <!-- user the if generated_password to fill out the fields automatically if the password was generated -->
+                        <input type="username" id="username" name="username" {% if generated_password %}value="{{ username }}"{% endif %} required>
+                        <br></br>
+                        <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" {% if generated_password %}value="{{ generated_password }}"{% endif %}>
+                        <br></br>
+                            <button type="submit" class="btn">
+                            Register
+                        </button>
+                        <button type="submit" class="generate" name="generate_password">Generate Password</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
