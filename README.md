@@ -17,9 +17,11 @@ Passwords are hashed and salted using SHA-1 for enhanced security.
 Account locking mechanism triggers after three consecutive unsuccessful login attempts.
 
 ## Registration Process
+<img width="455" alt="Screenshot 2024-04-24 at 10 32 18 AM" src="https://github.com/freyjafeeney11/Generic_Inc_Intranet/assets/83038656/de5275e1-799e-4596-94a1-88cd9cef862d">
 
 New users can register by providing unique usernames and passwords.
 Passwords meet specific criteria and are securely hashed and salted.
+Includes a Generate Password option that generates a secure password.
 Registration details are stored in an SQL database for data integrity.
 
 ## Database Management
