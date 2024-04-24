@@ -1,4 +1,12 @@
 # Generic_Inc_Intranet
+
+## Skills Used
+ - Web development with Flask.
+ - Database management with SQLite.
+ - User authentication and access control.
+ - Password hashing and salting for security.
+ - Version control with Git.
+
 ## Intranet System Overview
 This project introduces an intranet system designed for Generic Inc., featuring user authentication, registration, and access control functionalities. Here's a concise summary of key components and features:
 
