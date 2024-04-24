@@ -15,7 +15,8 @@ This project introduces an intranet system designed for Generic Inc., featuring 
 Users can log in securely using a username and password.
 Passwords are hashed and salted using SHA-1 for enhanced security.
 Account locking mechanism triggers after three consecutive unsuccessful login attempts.
-Registration Process
+
+## Registration Process
 
 New users can register by providing unique usernames and passwords.
 Passwords meet specific criteria and are securely hashed and salted.
